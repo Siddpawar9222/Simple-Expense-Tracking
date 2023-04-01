@@ -1,10 +1,13 @@
-import Divs from "./component2/Divs";
-const App = () => {
+// import "./App.css" ;
+import Header from "./components/UI/Header";
+import AddData from "./components/UI/AddData";
+function App() {
+
   return (
     <div>
-    <Divs/>
+      <Header/>
+      <AddData/>
     </div>
-  )
+  );
 }
-
-export default App ;
+export default App;

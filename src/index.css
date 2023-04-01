@@ -1,17 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 html{
     font-size: 62.5%;
-    
+    box-sizing: border-box;
+  
 }
+
 body{
-    background-color: rgb(20, 66, 67);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Shantell Sans', cursive;
+    background-color: cadetblue;
 }

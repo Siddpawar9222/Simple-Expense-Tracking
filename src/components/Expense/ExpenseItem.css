@@ -1,0 +1,81 @@
+.ExpenseItem_container {
+  height: 15vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #110a2a;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem black;
+  margin-top: 1rem;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 0.4rem 2rem;
+}
+.pack,
+.pack1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ExpenseItemPrice,
+.ExpenseItemDetails,
+.ExpenseItemDate {
+  margin: 0rem 1.5rem;
+  font-size: 1.9rem;
+}
+
+.ExpenseItemDetails {
+  color: white;
+  width: 10rem;
+}
+.ExpenseItemPrice {
+  width: 12rem;
+  height: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid white;
+  background-color: darkblue;
+  /* padding: 0.8rem; */
+  border-radius: 0.6rem;
+  color: azure;
+}
+ .remove{
+  height: 5rem;
+  background-color: darkcyan;
+  color: azure;
+  width: 8rem;
+  margin-right: 1.8rem;
+  border-radius: 0.6rem;
+ }
+  
+@media(max-width:822px){
+  html{
+    font-size: 52%;
+
+  }
+}
+@media((max-width:676px)) {
+  html{
+    font-size: 49%;
+  }
+
+  .ExpenseItem_container {
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem 0rem ;
+  }
+  .pack{
+          flex-direction: column;
+  }
+  .ExpenseItemDetails{
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,12 @@
+.ExpenseItemDate{
+    width: 12rem;
+    height: 8.5rem;
+    border: 0.1rem solid white;
+    border-radius: 0.8rem;
+    background-color: rgb(15, 38, 38);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
