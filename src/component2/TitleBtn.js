@@ -52,7 +52,7 @@ const TitleBtn = (props) => {
         square.style.pointerEvents = "none";
       });
     } else if (boardIsFull()) {
-      setWinner("Game Drawn");
+      setWinner("Game has been drawn");
     }
   }, [spaces]);
 
