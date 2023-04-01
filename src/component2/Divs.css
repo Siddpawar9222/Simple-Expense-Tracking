@@ -1,0 +1,57 @@
+.container{ 
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.grid{
+    height: 45vh;
+    width: 30rem;
+     border: none;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 15vh 15vh 15vh;   
+     /*I wrote down like this because when I click on view my grid was expanded to avoid this I wrote 2 property here  */
+}
+.title{
+    font-size: 3.3rem;
+    color: rgb(223, 178, 64);
+}
+ .btn{
+   margin: 1rem 0rem 2rem 0rem;
+   color: black;
+   font-size: 2rem;
+   border-radius: 0.5rem;
+   padding: 0.3rem;
+   background-color: orange;
+
+}
+ .btn:hover{
+   cursor: pointer;
+   transform: translateY(-0.2rem);
+}
+.square{
+    border-right: 0.2rem  solid rgb(177, 126, 32);
+    border-bottom: 0.2rem  solid rgb(177, 126, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.8rem;
+    font-weight: bolder;
+    color: orange;
+}
+.square:hover{
+    cursor: pointer;
+}
+.square:nth-child(3n){
+    border-right: none;   
+    /* n is no of row */
+}
+.square:nth-child(6) ~ .square{
+    border-bottom: none;
+    /* After the 6th child  */
+}

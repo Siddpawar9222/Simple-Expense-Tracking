@@ -1,0 +1,25 @@
+.titlebtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+    font-size: 3.3rem;
+    color: rgb(223, 178, 64);
+    
+}
+ .btn{
+   margin: 1rem 0rem 2rem 0rem;
+   color: black;
+   font-size: 2rem;
+   border-radius: 0.5rem;
+   padding: 0.3rem;
+   background-color: orange;
+   
+
+}
+ .btn:hover{
+   cursor: pointer;
+   transform: translateY(-0.2rem);
+}
